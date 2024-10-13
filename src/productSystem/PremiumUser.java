@@ -8,7 +8,7 @@ public class PremiumUser extends RegularUser{
         this.membershipLevel = membershipLevel;
     }
     public void addProductToCart(Product product) {
-         // Sample discount
+        //10% discount
         product.price = product.price * 0.9;
         super.addProductToCart(product);
     }
